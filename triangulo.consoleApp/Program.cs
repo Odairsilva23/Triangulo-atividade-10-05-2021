@@ -11,9 +11,9 @@ namespace triangulo.consoleApp
         static void Main(string[] args)
         {
             Triangulo triangulo1 = new Triangulo(2, 2, 3);
-            Triangulo triangulo2 = new Triangulo(3, 3, 3);
-            Triangulo triangulo3 = new Triangulo(3, 4, 5);
-            Triangulo triangulo4 = new Triangulo(4, 4, 12);
+            Triangulo triangulo2 = new Triangulo(6, 6, 6);
+            Triangulo triangulo3 = new Triangulo(2, 3, 5);
+            Triangulo triangulo4 = new Triangulo(4, 4, 44);
 
             Console.Write("Triangulo 1:");
             Console.Write(triangulo1.ExibirValores());

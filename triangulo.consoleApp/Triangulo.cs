@@ -8,7 +8,6 @@ namespace triangulo.consoleApp
         public double B;
         public double C;
 
-    
 
         public Triangulo(double A, double B, double C)
         {
@@ -22,7 +21,7 @@ namespace triangulo.consoleApp
             return "(" + A + "," + B + "," + C + ")";
         }
 
-        public bool Validar()
+        private bool Validar()
         {
             bool validacao = true;
             if ((A <= 0) || (B <= 0) || (C <= 0))
